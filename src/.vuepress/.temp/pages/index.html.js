@@ -1,0 +1,16 @@
+import comp from "D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/index.html.vue"
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"BlogHome\",\"icon\":\"home\",\"title\":\"主页\",\"heroImage\":\"https://gcore.jsdelivr.net/gh/Twritetime/imgs@main/avatar.png\",\"heroText\":\"WriteTime\",\"heroFullScreen\":true,\"tagline\":\"No other,but familiar\",\"bgImage\":\"https://gcore.jsdelivr.net/gh/Twritetime/imgs@main/%E9%A3%8E%E6%9A%B4%E4%B9%8B%E7%9C%BC.png\",\"projects\":[{\"icon\":\"project\",\"name\":\"个人主页\",\"desc\":null,\"link\":\"https://writetime.top\"},{\"icon\":\"link\",\"name\":\"GitHub主页\",\"desc\":null,\"link\":\"https://github.com/Twritetime\"}],\"footer\":null,\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://blog.writetime.top/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Twritetime\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"主页\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"主页\\\"}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.2,\"words\":59},\"filePathRelative\":\"README.md\",\"excerpt\":\"\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
