@@ -1,17 +1,17 @@
 export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
-  ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/intro.html.js"), meta: {"v":"/assets/images/cover3.jpg","e":"\n<p>What's up!This is Twritetime,a back-end developer.</p>\n","r":{"minutes":0.06,"words":18},"t":"介绍页","i":"circle-info","y":"a"} }],
+  ["/intro.html", { loader: () => import(/* webpackChunkName: "intro.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/intro.html.js"), meta: {"d":1733400131000,"v":"/assets/images/cover3.jpg","e":"\n<p>What's up!This is Twritetime,a back-end developer.</p>\n","r":{"minutes":0.06,"words":18},"t":"介绍页","i":"circle-info","y":"a"} }],
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/index.html.js"), meta: {"t":"主页","i":"home"} }],
-  ["/demo/disable.html", { loader: () => import(/* webpackChunkName: "demo_disable.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/disable.html.js"), meta: {"c":["使用指南"],"g":["禁用"],"e":"<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>\n","r":{"minutes":0.43,"words":128},"t":"布局与功能禁用","i":"gears","O":4,"y":"a"} }],
-  ["/demo/encrypt.html", { loader: () => import(/* webpackChunkName: "demo_encrypt.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/encrypt.html.js"), meta: {"c":["使用指南"],"g":["加密"],"n":true,"r":{"minutes":0.51,"words":154},"t":"密码加密的文章","i":"lock","y":"a"} }],
-  ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "demo_layout.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"c":["指南"],"g":["布局"],"e":"<p>布局包括:</p>\n<ul>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/navbar.html\" target=\"_blank\" rel=\"noopener noreferrer\">导航栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html\" target=\"_blank\" rel=\"noopener noreferrer\">侧边栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/footer.html\" target=\"_blank\" rel=\"noopener noreferrer\">页脚</a></li>\n</ul>","r":{"minutes":0.53,"words":159},"t":"布局","i":"object-group","O":2,"y":"a"} }],
-  ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "demo_markdown.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"c":["使用指南"],"g":["Markdown"],"e":"<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>\n<p>你需要创建并编写 Markdown，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>\n","r":{"minutes":3.47,"words":1041},"t":"Markdown 展示","i":"fab fa-markdown","O":2,"y":"a"} }],
+  ["/demo/disable.html", { loader: () => import(/* webpackChunkName: "demo_disable.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/disable.html.js"), meta: {"d":1733400131000,"c":["使用指南"],"g":["禁用"],"e":"<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>\n","r":{"minutes":0.43,"words":128},"t":"布局与功能禁用","i":"gears","O":4,"y":"a"} }],
+  ["/demo/encrypt.html", { loader: () => import(/* webpackChunkName: "demo_encrypt.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/encrypt.html.js"), meta: {"d":1733400131000,"c":["使用指南"],"g":["加密"],"n":true,"r":{"minutes":0.51,"words":154},"t":"密码加密的文章","i":"lock","y":"a"} }],
+  ["/demo/layout.html", { loader: () => import(/* webpackChunkName: "demo_layout.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/layout.html.js"), meta: {"d":1733400131000,"c":["指南"],"g":["布局"],"e":"<p>布局包括:</p>\n<ul>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/navbar.html\" target=\"_blank\" rel=\"noopener noreferrer\">导航栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html\" target=\"_blank\" rel=\"noopener noreferrer\">侧边栏</a></li>\n<li><a href=\"https://theme-hope.vuejs.press/zh/guide/layout/footer.html\" target=\"_blank\" rel=\"noopener noreferrer\">页脚</a></li>\n</ul>","r":{"minutes":0.53,"words":159},"t":"布局","i":"object-group","O":2,"y":"a"} }],
+  ["/demo/markdown.html", { loader: () => import(/* webpackChunkName: "demo_markdown.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/markdown.html.js"), meta: {"d":1733400131000,"c":["使用指南"],"g":["Markdown"],"e":"<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>\n<p>你需要创建并编写 Markdown，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>\n","r":{"minutes":3.47,"words":1041},"t":"Markdown 展示","i":"fab fa-markdown","O":2,"y":"a"} }],
   ["/demo/page.html", { loader: () => import(/* webpackChunkName: "demo_page.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/page.html.js"), meta: {"a":"Ms.Hope","d":1577836800000,"l":"2020年1月1日","c":["使用指南"],"g":["页面配置","使用指南"],"u":true,"v":"/assets/images/cover1.jpg","e":"<p><code>more</code> 注释之前的内容被视为文章摘要。</p>\n","r":{"minutes":1.76,"words":529},"t":"页面配置","i":"file","O":3,"y":"a"} }],
-  ["/demo/", { loader: () => import(/* webpackChunkName: "demo_index.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/index.html.js"), meta: {"c":["使用指南"],"r":{"minutes":0.07,"words":22},"t":"主要功能与配置演示","i":"laptop-code","y":"a"} }],
+  ["/demo/", { loader: () => import(/* webpackChunkName: "demo_index.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/demo/index.html.js"), meta: {"d":1733400131000,"c":["使用指南"],"r":{"minutes":0.07,"words":22},"t":"主要功能与配置演示","i":"laptop-code","y":"a"} }],
   ["/posts/Java/%E5%85%AB%E8%82%A1%E6%96%87.html", { loader: () => import(/* webpackChunkName: "posts_Java_八股文.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/posts/Java/八股文.html.js"), meta: {"a":"Twritetime","d":1729987200000,"l":"2024年10月27日","c":["Java"],"g":["红"],"u":true,"r":{"minutes":10.7,"words":3210},"t":"八股文","i":"pen-to-square","O":1,"y":"a"} }],
   ["/posts/Java/%E9%9D%A2%E7%BB%8F.html", { loader: () => import(/* webpackChunkName: "posts_Java_面经.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/posts/Java/面经.html.js"), meta: {"a":"Twritetime","d":1729987200000,"l":"2024年10月27日","c":["Java"],"g":["红"],"r":{"minutes":0.35,"words":105},"t":"面经","i":"pen-to-square","O":2,"y":"a"} }],
-  ["/posts/%E5%A4%96%E8%B4%B8/WhatsApp%E6%B3%A8%E5%86%8C.html", { loader: () => import(/* webpackChunkName: "posts_外贸_WhatsApp注册.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/posts/外贸/WhatsApp注册.html.js"), meta: {"a":"Twritetime","c":["外贸"],"g":["红"],"r":{"minutes":0.89,"words":268},"t":"WhatsApp注册","i":"pen-to-square","O":1,"y":"a"} }],
+  ["/posts/%E5%A4%96%E8%B4%B8/WhatsApp%E6%B3%A8%E5%86%8C.html", { loader: () => import(/* webpackChunkName: "posts_外贸_WhatsApp注册.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/posts/外贸/WhatsApp注册.html.js"), meta: {"a":"Twritetime","d":1733400131000,"c":["外贸"],"g":["红"],"r":{"minutes":0.89,"words":268},"t":"WhatsApp注册","i":"pen-to-square","O":1,"y":"a"} }],
   ["/posts/%E6%97%A5%E5%B8%B8/%E5%BB%BA%E7%AB%99.html", { loader: () => import(/* webpackChunkName: "posts_日常_建站.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/posts/日常/建站.html.js"), meta: {"a":"Twritetime","d":1729987200000,"l":"2024年10月27日","c":["日常"],"g":["红"],"r":{"minutes":0.41,"words":124},"t":"建站记录","i":"pen-to-square","O":1,"y":"a"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
   ["/posts/Java/", { loader: () => import(/* webpackChunkName: "posts_Java_index.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/posts/Java/index.html.js"), meta: {"t":"Java"} }],
@@ -36,20 +36,3 @@ export const routes = Object.fromEntries([
   ["/star/", { loader: () => import(/* webpackChunkName: "star_index.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/star/index.html.js"), meta: {"t":"星标","I":false} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "timeline_index.html" */"D:/Twritetime/blog-writetime/src/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"t":"时间轴","I":false} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
